@@ -23,7 +23,7 @@ puts lowercased_phrase
 
 big_word = "supercalifragilisticexpialidocious".length
 
-letter_count = big_word.length # Put a . after big_word and use a String method.
+letter_count = big_word # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}".length
 
