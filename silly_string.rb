@@ -33,7 +33,7 @@ bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_
 
 new_letter_count = bigger_word.size
 
-puts "There are now #{new_letter_count} in #{bigger_word}" + "mom" + "wow"
+puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
