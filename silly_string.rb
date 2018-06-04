@@ -21,7 +21,7 @@ puts lowercased_phrase
 
 # Challenge 4: Count how many letters are in that big_word
 
-big_word = "supercalifragilisticexpialidocious"
+big_word = "supercalifragilisticexpialidocious".length
 
 letter_count = big_word # Put a . after big_word and use a String method.
 
@@ -33,7 +33,7 @@ bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_
 
 new_letter_count = bigger_word.size
 
-puts "There are now #{new_letter_count} in #{bigger_word}"
+puts "There are now #{new_letter_count} in #{bigger_word}" + "mom" + "wow"
 
 # Challenge 6: Capitalize this sentence properly
 
