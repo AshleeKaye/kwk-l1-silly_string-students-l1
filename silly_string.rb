@@ -23,13 +23,13 @@ puts lowercased_phrase
 
 big_word = "supercalifragilisticexpialidocious"
 
-letter_count = big_word.length # Put a . after big_word and use a String method.
+letter_count = big_word # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}".length
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
-bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
+bigger_word = big_word + "mom" + "wow" # Use String concatenation to add "wow" and "mom" to big_word
 
 new_letter_count = bigger_word.size
 
